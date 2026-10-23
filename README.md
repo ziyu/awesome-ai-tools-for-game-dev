@@ -134,6 +134,7 @@ You have other tools to add? **[Please contribute](https://github.com/simoninith
 - [Rosebud AI](https://https://play.rosebud.ai/home) (Proprietary, Sign Up, Free): Create via prompt to game. Then publish and share your 2D or 3D game via url (host for free).
 - [OhMyGame](https://www.ohmygame.ai/) (Open Source, Apache-2.0, Free app, Bring Your Own Model): Desktop game studio where an AI agent drafts design documents, generates assets, writes code, playtests, and publishes games. Model-provider usage may incur separate costs.
 - [Summoned Games](https://summoned.games) (Proprietary, Sign Up, Free): Prompt to game through your own coding agent (Claude Code, Codex, any MCP client). The platform hosts the result with leaderboards, save data and up to 16 player multiplayer, and publishes it as a browser game anyone can play without an account.
+- [Seele AI](https://seeles.ai/) (Proprietary, Sign Up, Free): Chat to create 3D and 2D games and assets with no coding, then publish them.
 
 ## Search Engine 🔍
 
