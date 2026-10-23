@@ -77,6 +77,7 @@ You have other tools to add? **[Please contribute](https://github.com/simoninith
 - [Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) (Open Source, Apache-2.0, Free): MCP server connecting AI agents to the Godot Editor and runtime (Godot 4.x, C#).
 - [Unreal-MCP](https://github.com/IvanMurzak/Unreal-MCP) (Open Source, Apache-2.0, Free): MCP server connecting AI agents to Unreal Engine 5.7, editor and runtime (C++ plugin + .NET sidecar).
 - [Coplay](https://coplay.dev) (Proprietary, Free, Paid, Sign Up): Native AI assistant for Unity development.
+- [Roblox GUI Maker](https://robloxguimaker.dev/) (Proprietary, Free): Generate Roblox Studio GUI layouts and Lua starter code for menus, HUDs, shops, and inventory screens from a text prompt.
 
 ## Animation Video Mocap 💃📹
 
