@@ -39,6 +39,7 @@ You have other tools to add? **[Please contribute](https://github.com/simoninith
 - [Genie](https://lumalabs.ai/genie) (Proprietary, Sign Up, Free): Generate 3D assets from text prompt.
 - [Rosebud AI](https://https://play.rosebud.ai/home) (Proprietary, Sign Up, Free): Generate 2D or 3D assets for free in prompt to game creator.
 - [FrameSprite](https://www.framesprite.com/character) (Proprietary, Sign Up, Paid; free browser tools): Generate or upload a 2D character, create short AI action animations, remove solid-color backgrounds, and export PNG sequences, GIFs, or sprite sheets.
+- [Ludo.ai](https://ludo.ai/) (Proprietary, Sign Up, Free, Paid): Generate game-ready sprites, icons, UI, textures, music, 3D models and video, in 30+ art styles or matched to your own style references. MCP server, REST API and Unity plugin.
 
 ## Texture Generation 🖼️🖌️
 
@@ -124,7 +125,7 @@ You have other tools to add? **[Please contribute](https://github.com/simoninith
 
 ➡️ You want to generate game mechanics, game ideas, or other other components of your game (characters, story, items, etc.).
 
-- [Ludo.ai](https://ludo.ai/) (Proprietary, Sign Up, Free, Paid): Ideation and research tool for game designers and developers, combining text and image generation with AI-powered search and trends tools.
+- [Ludo.ai](https://ludo.ai/) (Proprietary, Sign Up, Free, Paid): Game Ideator that generates game concepts from keywords, themes or existing titles, plus an AI game design document editor that embeds generated assets in the doc.
 - [Rosebud AI](https://https://play.rosebud.ai/home) (Proprietary, Sign Up, Free): Create via prompt to game. Then publish and share your 2D or 3D game via url (host for free).
 - [OhMyGame](https://www.ohmygame.ai/) (Open Source, Apache-2.0, Free app, Bring Your Own Model): Desktop game studio where an AI agent drafts design documents, generates assets, writes code, playtests, and publishes games. Model-provider usage may incur separate costs.
 - [Summoned Games](https://summoned.games) (Proprietary, Sign Up, Free): Prompt to game through your own coding agent (Claude Code, Codex, any MCP client). The platform hosts the result with leaderboards, save data and up to 16 player multiplayer, and publishes it as a browser game anyone can play without an account.
