@@ -40,6 +40,7 @@ You have other tools to add? **[Please contribute](https://github.com/simoninith
 - [Rosebud AI](https://https://play.rosebud.ai/home) (Proprietary, Sign Up, Free): Generate 2D or 3D assets for free in prompt to game creator.
 - [FrameSprite](https://www.framesprite.com/character) (Proprietary, Sign Up, Paid; free browser tools): Generate or upload a 2D character, create short AI action animations, remove solid-color backgrounds, and export PNG sequences, GIFs, or sprite sheets.
 - [SpriteCook](https://www.spritecook.ai) (Proprietary, Sign Up, Free): Generate and animate pixel art sprites from text prompts; includes an MCP server so AI agents can generate pixel art for you.
+- [CharGen](https://getchargen.com) (Proprietary, Free): AI character generator that creates portraits, backstories, and full character sheets for DnD, anime, fantasy, and game characters.
 - [Ludo.ai](https://ludo.ai/) (Proprietary, Sign Up, Free, Paid): Generate game-ready sprites, icons, UI, textures, music, 3D models and video, in 30+ art styles or matched to your own style references. MCP server, REST API and Unity plugin.
 
 ## Texture Generation 🖼️🖌️
