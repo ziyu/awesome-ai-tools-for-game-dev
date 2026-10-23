@@ -15,7 +15,14 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - **Reviewed the upstream PR backlog:** merged 11 useful contributions with their original authors credited in the git history, and declined spam, off-topic tools and dead links.
 - **Added new categories:** 3D Model Generation, 2D Sprites & Pixel Art, World & Level Generation, Engine Integrations & MCP Servers, Music & Sound Effects, and Playtesting & QA.
 - **Added 2025–2026 tools**, including Hunyuan3D 2.1, TRELLIS.2, Meshy, Tripo, PixelLab, Retro Diffusion, Unity AI, Bezi, Blender/Unity/Godot/Unreal MCP servers, Chatterbox, Kokoro, ACE-Step, NobodyWho, LLMUnity and nunu.ai.
-- **Fixed or removed dead links.** Removed tools that have shut down (Ready Player Me, Coqui Studio, Replica Studios, Charmed Texture Generator, Luma Genie and RADiCAL) and fixed links that had moved.
+- **Fixed dead links and removed tools that have shut down, been abandoned or been superseded.**
+- **The numbers (counted from this file):** the list has **92 unique tools** in **96 entries**; Ludo.ai, Rosebud AI, Stable Diffusion 3.5 and ChatGPT each appear in two sections. The original list had 35 tools. **18** of them are still listed (Stable Diffusion is now Stable Diffusion 3.5, Claude 100k is now Claude, and GPT-4 32k is now OpenAI API models). **74** tools are new, and **17** of the original tools were removed.
+- **Removed from the original list (17):**
+  - Shut down: Ready Player Me, Luma Genie, Charmed Texture Generator, Charmed Tilemap Generator, RADiCAL, Coqui Studio and Replica Studios.
+  - Abandoned (no updates since 2023–2024): Haddock, Plask, eastworld and UnityMLPySocket.
+  - Archived: Hugging Face API Unity Integration.
+  - Outdated models with better replacements: MPT-7B-StoryWriter, StarCoder, ControlNet v1.1, Facebook Wav2Vec2 and Bark.
+- **Added during the refresh and later removed (4):** Stable Fast 3D (no updates since January 2025; TRELLIS.2 and Hunyuan3D 2.1 do the job better), chongdashu unreal-mcp (no updates since April 2025; the actively maintained Unreal-MCP is listed instead), Udio (downloads and commercial use ended after the October 2025 UMG settlement) and Aicade (no sign of activity since 2024).
 
 ## Contents
 
@@ -34,7 +41,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Conversational Models](#conversational-models)
 - [Story Telling Models](#story-telling-models)
 - [Game Design & Prompt-to-Game](#game-design--prompt-to-game-)
-- [Search Engine](#search-engine-)
 - [AI NPC](#ai-npc)
 - [Playtesting & QA](#playtesting--qa-)
 - [Python Libraries](#python-libraries)
@@ -47,7 +53,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 
 - [Scenario.com](https://www.scenario.com/) (Proprietary, Sign Up, Free): Generate assets such as textures, concept art, and background assets.
 - [Ludo.ai](https://ludo.ai/) (Proprietary, Sign Up, Free, Paid): Generate game-ready sprites, icons, UI, textures, music, 3D models and video, in 30+ art styles or matched to your own style references. MCP server, REST API and Unity plugin.
-- [Charmed Tilemap Generator](https://github.com/charmed-ai/tilemapgen) (Open Source, Free): Generate tilemaps for 2D levels.
 - [CharGen](https://getchargen.com) (Proprietary, Free): AI character generator that creates portraits, backstories, and full character sheets for DnD, anime, fantasy, and game characters.
 - [Rosebud AI](https://rosebud.ai/) (Proprietary, Sign Up, Free): Generate 2D or 3D assets for free in prompt to game creator.
 
@@ -63,7 +68,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Hunyuan3D 2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) (Open Weights, Tencent Hunyuan Community License, Free): Tencent's image-to-3D model with PBR texture generation. See also [Hunyuan3D 2.0](https://github.com/Tencent-Hunyuan/Hunyuan3D-2).
 - [TRELLIS.2](https://github.com/microsoft/TRELLIS.2) (Open Source, MIT, Free): Microsoft's image-to-3D generation model, successor to [TRELLIS](https://github.com/microsoft/TRELLIS).
 - [TripoSR](https://github.com/VAST-AI-Research/TripoSR) (Open Source, MIT, Free): Fast single-image 3D reconstruction.
-- [Stable Fast 3D](https://github.com/Stability-AI/stable-fast-3d) (Open Weights, Stability AI Community License, Free): Generates a textured, UV-unwrapped 3D mesh from a single image in seconds.
 
 ## 2D Sprites & Pixel Art 👾
 
@@ -93,7 +97,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) (Open Source, GPL-3.0, Free): Node-based interface for running and chaining local image, video, audio and 3D models.
 - [Leonardo AI](https://app.leonardo.ai/) (Proprietary, Sign Up, Paid, Free Limited daily generations)
 - [Krea](https://www.krea.ai/) (Proprietary, Sign Up, Free, Paid): Real-time image generation, editing and upscaling.
-- [ControlNet](https://github.com/lllyasviel/ControlNet-v1-1-nightly) (Open Source, Apache 2, Free)
 
 ## World & Level Generation 🌍
 
@@ -120,7 +123,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [GameDev Assistant](https://gamedevassistant.com/) (Proprietary, Sign Up, Paid): AI coding assistant for Godot by Zenva that knows your project.
 - [Godot AI Assistant Hub](https://github.com/FlamxGames/godot-ai-assistant-hub) (Open Source, MIT, Free): Godot plugin to chat with local or remote LLMs (Ollama and others) inside the editor.
 - [Roblox GUI Maker](https://robloxguimaker.dev/) (Proprietary, Free): Generate Roblox Studio GUI layouts and Lua starter code for menus, HUDs, shops, and inventory screens from a text prompt.
-- [StarCoder](https://huggingface.co/bigcode/starcoder) (Open Source, Free, Sign Up)
 
 ## Engine Integrations & MCP Servers 🔌
 
@@ -129,16 +131,14 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (Open Source, Apache-2.0, Free): MCP server connecting AI agents (Claude, Cursor, GitHub Copilot, Gemini, and more) to the Unity Editor and runtime, with 100+ built-in tools.
 - [MCP Unity](https://github.com/CoderGamester/mcp-unity) (Open Source, MIT, Free): MCP server that lets AI agents manipulate scenes, GameObjects and tests in the Unity Editor.
 - [Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) (Open Source, Apache-2.0, Free): MCP server connecting AI agents to the Godot Editor and runtime (Godot 4.x, C#).
-- [godot-mcp](https://github.com/Coding-Solo/godot-mcp) (Open Source, MIT, Free): MCP server to launch the Godot editor, run projects and read debug output from AI assistants.
+- [Coding-Solo godot-mcp](https://github.com/Coding-Solo/godot-mcp) (Open Source, MIT, Free): MCP server to launch the Godot editor, run projects and read debug output from AI assistants.
 - [Unreal-MCP](https://github.com/IvanMurzak/Unreal-MCP) (Open Source, Apache-2.0, Free): MCP server connecting AI agents to Unreal Engine 5.7, editor and runtime (C++ plugin + .NET sidecar).
-- [unreal-mcp](https://github.com/chongdashu/unreal-mcp) (Open Source, Free): Control Unreal Engine actors and Blueprints from AI assistants via MCP.
 - [Blender MCP](https://github.com/ahujasid/mcp-for-blender) (Open Source, MIT, Free): Connect Claude and other agents to Blender for prompt-assisted 3D modeling and scene creation.
 
 ## Animation Video Mocap 💃📹
 
 ➡️ You want to **generate 3D animations from a video you’ve made without a motion capture suit**, or from a text prompt.
 
-- [Plask](https://motion.plask.ai/) (Proprietary, Free, Paid, Sign Up): AI-powered Mocap Animation Tool.
 - [Move AI](https://move.ai/) (Proprietary, Free, Paid, Sign Up): Markerless motion capture from video, from a single phone up to multi-camera setups.
 - [Rokoko Vision](https://www.rokoko.com/products/vision) (Proprietary, Free, Paid, Sign Up): Free AI motion capture from webcam or video.
 - [DeepMotion](https://www.deepmotion.com/) (Proprietary, Free, Paid, Sign Up): Animate 3D turns video into 3D animation; SayMotion generates animation from text.
@@ -159,14 +159,12 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) (Open Weights, Apache 2, Free): Tiny, fast TTS model, light enough to run locally alongside a game.
 - [F5-TTS](https://github.com/SWivid/F5-TTS) (Open Source, MIT code, Free): Zero-shot voice cloning TTS.
 - [Coqui TTS](https://github.com/idiap/coqui-ai-TTS) (Open Source, MPL-2.0, Free): Maintained fork of the Coqui TTS toolkit (XTTS and other models).
-- [Bark](https://github.com/suno-ai/bark) (Open Source): Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
 
 ## Music & Sound Effects 🎵
 
 ➡️ You want **background music, jingles, or sound effects** for your game.
 
 - [Suno](https://suno.com/) (Proprietary, Sign Up, Free, Paid): Generate full songs and instrumentals from text prompts.
-- [Udio](https://www.udio.com/) (Proprietary, Sign Up, Free, Paid): Text-to-music generation.
 - [ElevenLabs Sound Effects](https://elevenlabs.io/sound-effects) (Proprietary, Sign Up, Free, Paid): Generate sound effects from text descriptions.
 - [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0) (Open Weights, Stability AI Community License, Free): Generate short sound effects, loops and ambience from text.
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) (Open Source, MIT code, Free): Meta's MusicGen and AudioGen for local music and sound generation.
@@ -182,7 +180,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [whisper.cpp](https://github.com/ggml-org/whisper.cpp) (Open Source, MIT, Free): Fast C/C++ port of Whisper that runs on CPU, GPU, mobile and the web.
 - [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (Open Source, MIT, Free): Faster Whisper inference with CTranslate2.
 - [whisper.unity](https://github.com/Macoron/whisper.unity) (Open Source, MIT, Free): Run Whisper locally inside Unity.
-- [Facebook Wav2Vec2](https://huggingface.co/facebook/wav2vec2-large-xlsr-53): another model for multilingual automatic speech recognition (ASR).
 
 ## Conversational models
 
@@ -190,7 +187,7 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 ➡️ [How does it work](https://huggingface.co/tasks/text-generation)
 
 - [ChatGPT](https://chatgpt.com/) (Proprietary, Free, Paid, Sign Up): Conversational model for chat-based interactions.
-- [HuggingChat 🤗](https://huggingface.co/chat/) (Open Source, Free, Sign Up): Chat with open-source models.
+- [HuggingChat 🤗](https://huggingface.co/chat/) (Open Source, Sign Up, Free credits, Paid): Hugging Face's chat app that routes prompts across 100+ open models.
 - [Ollama](https://ollama.com/) (Open Source, MIT, Free): Run open models (Llama, Qwen, Gemma, Mistral, etc.) locally with a simple API.
 
 ## Story Telling Models
@@ -210,13 +207,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [OhMyGame](https://www.ohmygame.ai/) (Open Source, Apache-2.0, Free app, Bring Your Own Model): Desktop game studio where an AI agent drafts design documents, generates assets, writes code, playtests, and publishes games. Model-provider usage may incur separate costs.
 - [Summoned Games](https://summoned.games) (Proprietary, Sign Up, Free): Prompt to game through your own coding agent (Claude Code, Codex, any MCP client). The platform hosts the result with leaderboards, save data and up to 16 player multiplayer, and publishes it as a browser game anyone can play without an account.
 - [Seele AI](https://seeles.ai/) (Proprietary, Sign Up, Free): Chat to create 3D and 2D games and assets with no coding, then publish them.
-- [Aicade](https://create.aicade.io/) (Proprietary, Sign Up, Free): Text-to-game builder for 2D games, with asset customization and a publishing page.
-
-## Search Engine 🔍
-
-➡️ Want to search scripts generated using advanced LLMs?
-
-- [Haddock](https://www.haddock.ai/) (Proprietary, Sign Up, Free, Paid): Search AI-Generated Code for free from GPT-4, Copilot, etc. Generate code for gaming platforms such as Roblox, Unity, and Unreal.
 
 ## AI NPC
 
@@ -229,7 +219,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [NobodyWho](https://github.com/nobodywho-ooo/nobodywho) (Open Source, EUPL-1.2, Free): Run local LLMs on-device for NPC dialogue directly in your game — bindings for Godot, Flutter, React Native and Swift, with streaming, tool calling, structured output, plus built-in Whisper speech-to-text and text-to-speech. No API keys, no server.
 - [LLMUnity](https://github.com/undreamai/LLMUnity) (Open Source, Apache 2, Free): Run LLMs locally inside Unity for AI characters, with RAG support.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) (Open Source, MIT, Free): The C/C++ LLM inference engine behind most local, in-game LLM integrations.
-- [eastworld](https://github.com/mluogh/eastworld) (Open Source, Apache 2, Free): Create NPCs with backstories, knowledge about your lore, dialects, etc. that come out-of-the-box with capabilites like taking actions in your world
 
 ## Playtesting & QA 🧪
 
@@ -246,8 +235,6 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 
 ## C# Libraries
 
-- [Hugging Face API Unity Integration](https://github.com/huggingface/unity-api) (Open Source, Apache 2, Free, Archived): Integration for the Hugging Face Inference API and Unity
-- [UnityMLPySocket](https://github.com/dylanebert/UnityMLPySocket) (Open Source, Free): Perform local machine learning (ML) inference with Unity using a Python socket server.
 - [Python.Net](https://github.com/pythonnet/pythonnet) (Open Source, MIT): Integrate Python libraries with .Net and .Net Libraries with Python
 
 ## Contributing
