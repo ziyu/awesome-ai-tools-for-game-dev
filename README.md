@@ -78,6 +78,7 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Retro Diffusion](https://retrodiffusion.ai/) (Proprietary, Sign Up, Free credits, Paid): Pixel art generation designed by pixel artists, for sprites, characters and animations.
 - [God Mode AI](https://www.godmodeai.co/) (Proprietary, Sign Up, Paid): Sprite and looping animation generator for games with multiple camera views.
 - [SpriteCook](https://www.spritecook.ai) (Proprietary, Sign Up, Free): Generate and animate pixel art sprites from text prompts; includes an MCP server so AI agents can generate pixel art for you.
+- [Artgen](https://artgen.net/en/tools/image-to-pixel-art) (Proprietary, Free): Convert photos into pixel art in the browser with adjustable palette and resolution. Maker disclosure: submitted by the Artgen team.
 - [FrameSprite](https://www.framesprite.com/character) (Proprietary, Sign Up, Paid; free browser tools): Generate or upload a 2D character, create short AI action animations, remove solid-color backgrounds, and export PNG sequences, GIFs, or sprite sheets.
 
 ## Texture Generation 🖼️🖌️
