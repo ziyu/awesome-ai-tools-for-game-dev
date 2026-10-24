@@ -13,10 +13,10 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 ## What's new (2026 refresh)
 
 - **Reviewed the upstream PR backlog:** merged 11 useful contributions with their original authors credited in the git history, and declined spam, off-topic tools and dead links.
-- **Added new categories:** 3D Model Generation, 2D Sprites & Pixel Art, World & Level Generation, Engine Integrations & MCP Servers, Music & Sound Effects, and Playtesting & QA.
+- **Added new categories:** 3D Model Generation, 2D Sprites & Pixel Art, World & Level Generation, Engine Integrations & MCP Servers, Music & Sound Effects, Playtesting & QA, and Showcases & Galleries.
 - **Added 2025–2026 tools**, including Hunyuan3D 2.1, TRELLIS.2, Meshy, Tripo, PixelLab, Retro Diffusion, Unity AI, Bezi, Blender/Unity/Godot/Unreal MCP servers, Chatterbox, Kokoro, ACE-Step, NobodyWho, LLMUnity and nunu.ai.
 - **Fixed dead links and removed tools that have shut down, been abandoned or been superseded.**
-- **The numbers (counted from this file):** the list has **92 unique tools** in **96 entries**; Ludo.ai, Rosebud AI, Stable Diffusion 3.5 and ChatGPT each appear in two sections. The original list had 35 tools. **18** of them are still listed (Stable Diffusion is now Stable Diffusion 3.5, Claude 100k is now Claude, and GPT-4 32k is now OpenAI API models). **74** tools are new, and **17** of the original tools were removed.
+- **The numbers (counted from this file):** the list has **94 unique tools** in **98 entries**; Ludo.ai, Rosebud AI, Stable Diffusion 3.5 and ChatGPT each appear in two sections. The original list had 35 tools. **18** of them are still listed (Stable Diffusion is now Stable Diffusion 3.5, Claude 100k is now Claude, and GPT-4 32k is now OpenAI API models). **76** tools are new, and **17** of the original tools were removed.
 - **Removed from the original list (17):**
   - Shut down: Ready Player Me, Luma Genie, Charmed Texture Generator, Charmed Tilemap Generator, RADiCAL, Coqui Studio and Replica Studios.
   - Abandoned (no updates since 2023–2024): Haddock, Plask, eastworld and UnityMLPySocket.
@@ -43,6 +43,7 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [Game Design & Prompt-to-Game](#game-design--prompt-to-game-)
 - [AI NPC](#ai-npc)
 - [Playtesting & QA](#playtesting--qa-)
+- [Showcases & Galleries](#showcases--galleries)
 - [Python Libraries](#python-libraries)
 - [C# Libraries](#c-libraries)
 - [Contributing](#contributing)
@@ -207,6 +208,7 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [OhMyGame](https://www.ohmygame.ai/) (Open Source, Apache-2.0, Free app, Bring Your Own Model): Desktop game studio where an AI agent drafts design documents, generates assets, writes code, playtests, and publishes games. Model-provider usage may incur separate costs.
 - [Summoned Games](https://summoned.games) (Proprietary, Sign Up, Free): Prompt to game through your own coding agent (Claude Code, Codex, any MCP client). The platform hosts the result with leaderboards, save data and up to 16 player multiplayer, and publishes it as a browser game anyone can play without an account.
 - [Seele AI](https://seeles.ai/) (Proprietary, Sign Up, Free): Chat to create 3D and 2D games and assets with no coding, then publish them.
+- [OmGithub](https://omgithub.com/) (Sign Up via GitHub): Prompt to game: describe a game and it generates the project, builds and runs it in a cloud runner and publishes it, then you keep changing it by chat. Also a gallery of open-source AI-made browser games with their GitHub source.
 
 ## AI NPC
 
@@ -227,6 +229,12 @@ If it helps you, please ⭐ star the repo. Have a tool to add? **[Please contrib
 - [nunu.ai](https://nunu.ai/) (Proprietary, Paid): AI agents that test games like a human player across real iOS, Android and PC devices.
 - [modl.ai](https://modl.ai/) (Proprietary, Paid): AI agents for automated game testing and QA, finding bugs and performance issues.
 - [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) (Open Source, Free): Train game-playing agents with reinforcement and imitation learning for testing, balancing or NPC behavior.
+
+## Showcases & Galleries
+
+➡️ You want to **see what people are making with AI**: playable AI-made games for inspiration and benchmarking.
+
+- [LOL Games](https://lolgames.net/) (Free, No Sign Up): Swipe through hundreds of free browser games and play them instantly, with no downloads. Most games are tagged with the AI model that made them (Claude, GPT, Gemini) and link to their source.
 
 ## Python Libraries
 
